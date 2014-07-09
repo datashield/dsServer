@@ -5,4 +5,4 @@ Version: 3.0.0
 License: GPL-3
 Title: DataSHIELD graphic functions (client)
 Description: Package contains functions to plot graphs.
-AggregateMethods: histogramDS, densityGridDS
+AggregateMethods: histogramDS, densityGridDS, rangeDS

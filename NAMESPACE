@@ -1,3 +1,4 @@
 export(densityGridDS)
 export(histogramDS)
 export(isValidDS)
+export(rangeDS)
