@@ -1,4 +1,4 @@
 dsGraphics
 ==========
 
-DataSHIELD graphic functions for server
+DataSHIELD server site functions for graphics
