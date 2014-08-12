@@ -6,3 +6,4 @@ License: GPL-3
 Title: DataSHIELD server site functions for graphics
 Description: DataSHIELD server site functions for graphics
 AggregateMethods: histogramDS, densityGridDS, rangeDS
+AssignMethods: attach=base::attach
