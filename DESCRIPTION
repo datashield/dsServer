@@ -1,7 +1,7 @@
 Package: dsGraphics
 Maintainer: <datashield@obiba.org>
 Author: <datashield@obiba.org>
-Version: 3.0.0
+Version: 3.0.1
 License: GPL-3
 Title: DataSHIELD graphic functions (client)
 Description: Package contains functions to plot graphs.
