@@ -3,7 +3,7 @@ Maintainer: <datashield@obiba.org>
 Author: <datashield@obiba.org>
 Version: 3.0.1
 License: GPL-3
-Title: DataSHIELD graphic functions (client)
+Title: DataSHIELD graphic functions (server)
 Description: Package contains functions to plot graphs.
 AggregateMethods: histogramDS, densityGridDS, rangeDS
 AssignMethods: attach=base::attach
