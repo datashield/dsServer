@@ -1,9 +1,11 @@
 Package: dsGraphics
 Maintainer: <datashield@obiba.org>
 Author: <datashield@obiba.org>
-Version: 3.0.2
+Version: 4.0.0
 License: GPL-3
 Title: DataSHIELD graphic functions (server)
 Description: Package contains functions to plot graphs.
+Depends:
+    dsBase
 AggregateMethods: histogramDS, densityGridDS, rangeDS
 AssignMethods: attach=base::attach
