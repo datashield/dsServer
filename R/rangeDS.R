@@ -11,7 +11,7 @@ rangeDS <- function(xvect){
   
   # print an error message if the input vector is not a numeric
   if(!(is.numeric(xvect))){
-    stop("The input vector is not a numeric!")
+    output <- "The input vector is not a numeric!"
   }else{
     rr <- c(min(xvect, na.rm=TRUE), max(xvect, na.rm=TRUE))
     random1 <- runif(1, 0.95, 1)
