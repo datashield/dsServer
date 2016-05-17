@@ -5,6 +5,8 @@ Version: 0.0.1
 License: GPL-3
 Title: Server-side DataSHIELD functions
 Description: Server-side DataSHIELD functions
+Depends:
+    nlme
 AggregateMethods: length=base::length,
     colnames=base::colnames,
     dimDS,
@@ -36,7 +38,12 @@ AggregateMethods: length=base::length,
     covDS,
     histogramDS,
     densityGridDS,
-    rangeDS
+    rangeDS,
+    glmDS1,
+    glmDS2,
+    alphaPhiDS,
+    scoreVectDS,
+    checkNegValueDS
 AssignMethods: log=base::log,
     c=base::c,
     cDS,
@@ -61,6 +68,7 @@ AssignMethods: log=base::log,
     listDS,
     replaceNaDS,
     rep=base::rep,
-    attach=base::attach
+    attach=base::attach,
+    lexisDS
 Options: datashield.privacyLevel=5
 RoxygenNote: 5.0.1
