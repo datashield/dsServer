@@ -33,7 +33,10 @@ AggregateMethods: length=base::length,
     varDS,
     cor.test=stats::cor.test,
     corDS,
-    covDS
+    covDS,
+    histogramDS,
+    densityGridDS,
+    rangeDS
 AssignMethods: log=base::log,
     c=base::c,
     cDS,
@@ -57,6 +60,7 @@ AssignMethods: log=base::log,
     dataframeDS,
     listDS,
     replaceNaDS,
-    rep=base::rep
+    rep=base::rep,
+    attach=base::attach
 Options: datashield.privacyLevel=5
 RoxygenNote: 5.0.1
