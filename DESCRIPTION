@@ -1,10 +1,10 @@
-Package: dsBase
-Maintainer: <datashield@obiba.org>
-Author: <datashield@obiba.org>
-Version: 4.1.0
+Package: dsServer
+Maintainer: <datashield-research@bristol.ac.uk>
+Author: <datashield-research@bristol.ac.uk>
+Version: 0.0.1
 License: GPL-3
-Title: DataSHIELD server site base functions
-Description: DataSHIELD server site base functions
+Title: Server-side DataSHIELD functions
+Description: Server-side DataSHIELD functions
 AggregateMethods: length=base::length,
     colnames=base::colnames,
     dimDS,
@@ -28,7 +28,12 @@ AggregateMethods: length=base::length,
     isValidDS,
     ls=base::ls,
     numNaDS,
-    NROW=base::NROW
+    NROW=base::NROW,
+    t.test=stats::t.test,
+    varDS,
+    cor.test=stats::cor.test,
+    corDS,
+    covDS
 AssignMethods: log=base::log,
     c=base::c,
     cDS,
@@ -54,3 +59,4 @@ AssignMethods: log=base::log,
     replaceNaDS,
     rep=base::rep
 Options: datashield.privacyLevel=5
+RoxygenNote: 5.0.1

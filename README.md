@@ -1,4 +1,4 @@
-dsBase
-======
+dsServer
+========
 
-DataSHIELD server site base functions
+DataSHIELD server site functions
