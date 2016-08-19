@@ -5,7 +5,7 @@
 #' a missing value is returned. 
 #' @param xvect a vector
 #' @return a numeric, the standard deviation
-#' @author Scherer, P
+#' @author Gaye, A; Scherer, P
 #' @export
 #'
 sdS <- function (xvect) {
